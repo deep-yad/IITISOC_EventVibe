@@ -1,0 +1,227 @@
+/* *{
+    background-color: black;
+  } */
+  /* #pd1{
+    padding-top: 50px;
+    font-size: 50px;
+  }
+  .unit{
+    color: beige;
+    text-align: center;
+    justify-content: center;
+  }
+  .ticket{
+    text-align: left;
+    justify-content: left;
+   
+    margin-top: 20px;
+  
+  }
+  .input{
+    background-color: rgb(208, 147, 15);
+    opacity: 95%;
+  }
+  .ticket>h3{
+    float: left;
+  }
+  
+  .alert{
+    background-color:rgba(128, 128, 128, 0.199);
+  
+    
+    height: 60px;
+    width: 1000px;
+    border-radius: 10px;
+    border: solid;
+    border-color:rgb(128, 128, 128);
+    margin-top: 60px;
+    margin-left: 100px;
+    
+    }
+    .alert1{
+      background-color:rgba(128, 128, 128, 0.199);
+    
+      
+      height: 60px;
+      width: 1000px;
+      border-radius: 10px;
+      border: solid;
+      border-color:rgb(128, 128, 128);
+      margin-top: 10px;
+      margin-left: 100px;
+  
+      }
+      .alert2{
+        background-color:rgba(128, 128, 128, 0.199);
+    
+      
+      height: 60px;
+      width: 1000px;
+      border-radius: 10px;
+      border: solid;
+      border-color:rgb(128, 128, 128);
+      margin-top: 10px;
+      margin-left: 100px;
+      margin-bottom: 60px;
+      }
+  .col-md-12>span{
+    margin-left: 100px;
+  } 
+  .container{
+  border: solid;
+  border-color: aliceblue;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  margin-left: 40px;
+  margin-right: 265px;
+  border-radius:6px;
+  
+  }
+  .col-md-12{
+    margin-top: 50px;
+  }
+  @media(max-width:1000px){
+    #pd4{
+      position: relative;
+      left: -6rem;
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 2rem;
+    }
+    #pd5{
+      position: relative;
+      left: -6rem;
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 2rem;
+    }
+  } */
+
+
+
+
+
+
+
+
+  
+  .unit{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+   }
+    #pd1{
+      padding-top: 50px;
+      font-size: 50px;
+    }
+    .unit{
+      
+      text-align: center;
+      justify-content: center;
+      color: rgb(0, 0, 0);
+    }
+    .ticket{
+      text-align: left;
+      justify-content: left;
+     
+      margin-top: 20px;
+    color:rgb(0, 0, 0);
+    }
+    
+    .ticket>h3{
+      float: left;
+    }
+    
+   /*.alert{
+      background-color:rgba(128, 128, 128, 0.199);
+    
+      
+      height: 60px;
+      width: 1000px;
+      border-radius: 10px;
+      border: solid;
+      border-color:rgb(128, 128, 128);
+      margin-top: 60px;
+      margin-left: 100px;
+      
+      }
+      .alert1{
+        background-color:rgba(128, 128, 128, 0.199);
+      
+        
+        height: 60px;
+        width: 1000px;
+        border-radius: 10px;
+        border: solid;
+        border-color:rgb(128, 128, 128);
+        margin-top: 10px;
+        margin-left: 100px;
+    
+        }
+        .alert2{
+          background-color:rgba(128, 128, 128, 0.199);
+      
+        
+        height: 60px;
+        width: 1000px;
+        border-radius: 10px;
+        border: solid;
+        border-color:rgb(128, 128, 128);
+        margin-top: 10px;
+        margin-left: 100px;
+        margin-bottom: 60px;
+        }*/
+    .col-md-12>span{
+      margin-left: 295px;
+    } 
+  /*  .container{
+      background:white;
+    border: solid;
+    border-color: aliceblue;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    margin-left: 40px;
+    margin-right: 265px;
+    border-radius:6px;
+    width:1200px;
+    }*/
+    .col-md-12{
+      margin-top: 50px;
+      
+    }
+   
+    @media(max-width:1000px){
+      #pd4{
+        position: relative;
+        left: -6rem;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2rem;
+        margin-top: 90px;
+  
+      }
+      #pd5{
+        position: relative;
+        left: -6rem;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2rem;
+      }
+    }
+  .responsiveTable{
+    margin-top: 60px;
+    
+    background-color:rgb(255, 255, 255) ;
+    color: white;
+    
+  }
+  #pd2{
+    font-size: 20px;
+   
+  }
+  #pd6{
+    border: solid;
+    border-color: rgb(0, 0, 0);
+  }

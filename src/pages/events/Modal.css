@@ -1,0 +1,159 @@
+.modalBackground {
+  border-radius: 10px;
+  width: 83.5%;
+  height: 80%;
+  background-color: #383838ec;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.container{
+  color:white
+}
+b{ color:white}
+.modalContainer {
+  width: 600px;
+  height: 450px;
+  border-radius: 12px;
+  background-color: rgb(34, 33, 33);
+  color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+.modalimg{
+  width: 400px;
+}
+
+.openModalBtun{
+  width: 190px;
+  border: none;
+  background-color: rgb(245, 69, 116);
+  color: white;
+  padding: 6px 16px 6px 16px;
+  border-radius: 6px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+.openModalBtun:hover{
+  background-color: red;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.modalContainer .body {
+  /* flex: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mo1{
+  font-weight:400; font-size:30px;
+}
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* COUNTER */
+.options {
+  z-index: 1;
+  position: absolute;
+  margin-left: -40px;
+  margin-bottom: 10px;
+  width: 104px;
+  top: 470px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #0071c2;
+  color: #0071c2;
+  cursor: pointer;
+  background-color: white;
+}
+.m1m1{
+  padding-left: 30px;
+  padding-top: 20px;
+
+}
+#mo4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}
+
+@media(max-width:1000px){
+  .modalBackground{
+    top: 0rem;
+    height: 100%;
+    width: 100%;
+  }
+  .modalContainer{
+    height: 110rem;
+    width: 90rem;
+  }
+  #mo1{
+    font-size: 6rem;
+  }
+  .m1m1{
+    padding-top: 8rem;
+    padding-left: 9rem;
+    font-size: 4rem;
+  }
+  #mo2{
+    font-size: 4rem;
+  }
+  #mo4{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 9rem;
+    width: 22rem;
+    font-size: 3rem;
+  }
+}

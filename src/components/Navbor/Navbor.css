@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+  }
+.navbor{
+    position: fixed;
+    width: 210%;
+    height: 75px;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.80);
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navbaroi{
+    font-family: 'Poppins', sans-serif;
+}
+.logoiog{
+    position: relative;
+    top: 0rem;
+    width: 190px;
+}
+.userImaoe{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin-right: 35px;
+    margin-top: 10px;
+}
+.userInfoNov{
+    display: flex;
+    flex-direction: row;
+}
+.headernaoe{
+    margin-left: 50px;
+    color: aqua;
+}
+
+.hidebookod{
+    padding-top: 15px;
+    position: absolute;
+    display:none;
+}
+
+.logoot{
+    color:white;
+    padding-right:50px ;
+    padding-top:10px ;
+    font-size:18px ;
+
+}
+.logoot:hover{
+    
+   cursor: pointer;
+}
+.navdropdoon{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.navdropdoon:hover{
+    color: red;
+}
+.userInfoNov{
+    margin-top: 1.5rem;
+    margin-left: 12rem;
+}
+
+
+.navol{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: flex;
+    padding-left: 377px;
+    margin-top: 30px;
+}
+.navbaroi{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 60px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.auoh{
+    color: white;
+    text-decoration: none;
+}
+.navbaoi{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: 200;
+}
+.navbaoi:hover{
+    color: red;
+}
+.searoh{
+    font-size: 17px;
+    margin-left: 34px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+.searoh:hover{
+    color: red;
+}
+.icoos{
+    margin-left: 400px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+#no2{
+    height:35px; width:35px; border-radius:50%;
+} 
+@media(max-width:1000px){
+    .navbor{
+        width: 300%;
+        height: 290px;
+        justify-content: flex-start;
+      
+    }
+    .logoiog{
+        width: 19rem;
+        top: 67px;
+    }
+    .navol{
+        left: -1rem;
+        top: 5rem;
+        position: relative;
+        margin-left: 100px;
+        padding-left: 0rem;
+        /* font-size: 5rem; */
+    }
+    .navbaroi{
+        padding-top: 20px;
+        /* font-size: 45px; */
+        /* font-size: 5rem; */
+    }
+    .navbaoi{
+        font-size: 2rem;
+    }
+    .usernamoo{
+        font-size: 35px;
+    }
+    
+    .logoutnnaoe{
+       margin-top: 10rem;
+        position: fixed;
+        right: 4rem;
+        /* font-size: 3rem; */
+    }
+    #no1{
+        font-size: 3rem;
+    }
+    #no2{
+         width:6rem; border-radius:50%;
+         height: 6rem; 
+    }
+}
+

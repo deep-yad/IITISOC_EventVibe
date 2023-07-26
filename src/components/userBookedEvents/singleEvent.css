@@ -1,0 +1,86 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+.jhabi{
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 60px;
+    width: 370px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.card {
+    background-color: rgb(22,22,22);
+    border-radius: 5px;
+    border: 0px solid;
+    box-shadow: 4px 4px 10px 0px black;
+    color: rgb(235, 222, 204);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+ }
+ .card:hover{
+    transform: skew(1.1,1.1);
+ }
+#se1{
+    position:relative;
+    top: -5rem;
+}
+#se2{
+    height: 12rem;
+}
+#se3{
+    position: relative;
+    top: -5rem;
+}
+.singleeventimg{
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 350px;
+} 
+ .card-title{
+    font-size: 18px;
+ }
+ 
+ .card-text {
+     text-align: center;
+     color: aliceblue;
+ 
+ }
+ 
+ .card-text1 {
+     text-align: left;
+     color: #b3b0b0;
+ }
+ 
+ .button>button {
+     border-radius: 6px;
+     background-color: #bf2344;
+ }
+ 
+ .button>button:hover {
+     background-color: #b3b0b0;
+     color: #bf2344;
+ }
+ 
+ .card-body {
+     margin-bottom: 20px;
+     margin-left: 30px;
+     align-items: center;
+     justify-content: center;
+ }
+
+ @media(max-width:1000px){
+
+    .card-title{
+        
+        font-size:3.5rem
+     }
+
+} 
+ 
